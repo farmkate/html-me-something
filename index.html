@@ -1,42 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link type="text/css" rel="stylesheet" href="style.css" />
     <title>Life on the Farm</title>
 </head>
 <body>
     <main>
+        <header>
+            <table>
+                <thead><tr><td colspan="4" style="strong">Total Current Animal Count</td></tr></thead>
+                <tbody><tr><td>Dogs</td><td>Cats</td><td>Alpacas</td><td>Chickens</td></tr>
+                <tr><td>3</td><td>3</td><td>3</td><td>14</td></tr></tbody>
+            </table>
+        </header>
         <article>
-            <header>Starting Out</header>
-            <div><img src="file:/C:/Users/KMDol/mystuff/webdev/html-me-something/images/babychicks.jpg" height="150px" width="100px" /></div>
-            <div><p><img src="file:/C:/Users/KMDol/mystuff/webdev/html-me-something/images/20140915_Cookie Alpaca.jpg" height="100px" width="100px" /></p></div>
-            <div><p>If you've never owned a farm before, you start off with the things that you think a farm should have.</p>
-                <ul>
-                    <li>You start off with chickens</li>
+            <header style= "margin-top:100px">
+                    <div>
+                        <p><h2>Starting Out</h2></p>
+                    </div>
+            </header>
+            <div>
+                <p><img src="file:/C:/Users/KMDol/mystuff/webdev/html-me-something/images/babychicks.jpg" class="height" /></p>
+            </div>
+            <div id="midtext"><p>If you've never owned a farm before, you start off with the things that you think a farm should have.</p>
+                <ul style="margin-bottom: 25px;">
+                    <li>A few...or 15 chickens</li>
                     <li>Then you add some alpacas for good measure</li>
                 </ul>
             </div>
+            <div>
+                <p><img src="file:/C:/Users/KMDol/mystuff/webdev/html-me-something/images/20140915_Cookie Alpaca.jpg" class="height" /></p>
+            </div>
         </article>
         <article>
-            <header>After a few years</header>
-            <p>You learn a few things that would have been nice to know before you started, and some things that only experience can teach.</p>
+            <header>
+                <h2>After a few years</h2>
+            </header>
+            <div>
+                <p><img src="file:/C:/Users/KMDol/mystuff/webdev/html-me-something/images/chickens.jpg" class="height" /></p>
+            </div>
+            <div id="midtext"><p>You learn a few things that would have been nice to know before you started, and some things that only experience can teach.</p>
                 <ul>
                     <li>Roosters really can crow anytime during they day...or night</li>
-                    <li>They really did use some alpaca (or llama) vocalizations for the dinosaurs of Jurassic Park</li>
+                    <li>They really did use some <a href="https://youtu.be/dd3rbojnoY0">alpaca (or llama) vocalizations</a> for the dinosaurs of Jurassic Park</li>
                     <li>If you build it, the mice will come</li>
                 </ul>
+            </div>
+            <div>
+                <p><img src="file:/C:/Users/KMDol/mystuff/webdev/html-me-something/images/babychicks.jpg" height="200px" /></p>
+            </div>
         </article>
-            <header>New friends</header>
-            <p>And you find a few more friends along the way</p>
+        <article>
+            <header>
+                <h2>New friends</h2>
+            </header>
+            <div>
+                <p><img src="file:/C:/Users/KMDol/mystuff/webdev/html-me-something/images/20141018_Nubian goats.jpg" height="200px" /></p>
+            </div>
+            <div id="midtext"><p>And you find a few more friends along the way</p>
                 <ul>
                     <li>Some goats become temporary residents</li>
                     <li>Some sweet little puppies come to stay forever</li>
                 </ul>
-
+            </div>
+            <div>
+                <p><img src="file:/C:/Users/KMDol/mystuff/webdev/html-me-something/images/Baby Jake.jpg" alt="Baby Jake" height="200px" /></p>
+            </div>
         </article>
+        <div style="margin-bottom: 100px;">
+            <img src="file:/C:/Users/KMDol/mystuff/webdev/html-me-something/images/20160103_181501-1.jpg" alt="Pepper Puppy" style="margin:40px;" height="100px"/>
+            <img src="file:/C:/Users/KMDol/mystuff/webdev/html-me-something/images/20141018_Nubian goats.jpg" alt="Nubian goats" style="margin:40px;" height="100px" />
+            <img src="file:/C:/Users/KMDol/mystuff/webdev/html-me-something/images/babychicks.jpg" alt="baby chickens" style="margin:40px;" height="100px" />
+            <img src="file:/C:/Users/KMDol/mystuff/webdev/html-me-something/images/chickens.jpg" alt="chickens" style="margin:40px;" height="100px" />
+            <img src="file:/C:/Users/KMDol/mystuff/webdev/html-me-something/images/Baby Jake.jpg" alt="Baby Jake" style="margin:40px;" height="100px" />
+            <img src="file:/C:/Users/KMDol/mystuff/webdev/html-me-something/images/20140915_Cookie Alpaca.jpg" alt="Alpaca named Cookie" style="margin:40px"  height="100px" />
+        </div>
         <footer>
-            <p>Posted by: Kathryn Holden</p>
-            <p>Contact information: <a href="mainto:threedogyarn@gmail.com">Kathryn Holden</a>.</p>
-            <p>&copy; 2016</p>
+            <address style="width:1000px">
+                <div style="width:30%">Posted by: Kathryn Holden</div>
+                <div style="width:30%">Contact information: <a href="mainto:threedogyarn@gmail.com">Kathryn Holden</a>.</div>
+                <div style="width:30%">&copy; 2016</div>
+            </address>
         </footer>
     </main>
 </body>
